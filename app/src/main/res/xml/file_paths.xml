@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Thư mục backup APK trong bộ nhớ trong -->
+    <files-path
+        name="backup_files"
+        path="backup/" />
+
+    <!-- Cache (nếu cần share tạm) -->
+    <cache-path
+        name="cache_files"
+        path="." />
+
+    <!-- External files (backup ra bộ nhớ ngoài) -->
+    <external-files-path
+        name="external_backup"
+        path="Backup/" />
+</paths>
